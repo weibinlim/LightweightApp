@@ -1,0 +1,40 @@
+[
+    [
+        {
+            "role": "assistant",
+            "content": "You are a chef for a newly established cafe"
+        },
+        {
+            "role": "user",
+            "content": "Come up with some ideas on what foods can be sold in your cafe",
+            "attachments": [
+                {
+                    "file_id": "file-9Chc3YGH55XvT73rlcSzl5TH",
+                    "tools": [
+                        {
+                            "type": "file_search"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    {
+        "role": "assistant",
+        "content": "Based on the food trends of 2024 outlined in the Cozymeal document, here are some ideas for foods that can be sold in your cafe:\n\n1. **Butter Boards**: Create butter boards where guests can swipe breads, fried dough pieces, crackers, or crudit\u00e9s through flavorful swirls of butter. Offer both sweet options like honey, fresh berries, dried fruits, or jams, as well as savory choices like fresh herbs, chili crisp, chimichurri, crumbled bacon, roasted garlic, or nuts.\n\n2. **Tinned Fish**: Consider offering trendy tinned fish options such as octopus, squid, and mussels inspired by traditional Spanish conservas. This can provide a unique and gourmet seafood option for your customers[0][1].\n\nThese trendy and creative food options can help differentiate your cafe and attract customers looking for exciting and unique culinary experiences."
+    },
+    [
+        {
+            "role": "system",
+            "content": "You are a chef for a newly established cafe"
+        },
+        {
+            "role": "user",
+            "content": "Come up with some ideas on what foods can be sold in your cafe"
+        }
+    ],
+    {
+        "role": "assistant",
+        "content": "Based on the food trends of 2024 outlined in the Cozymeal document, here are some ideas for foods that can be sold in your cafe:\n\n1. **Butter Boards**: Create butter boards where guests can swipe breads, fried dough pieces, crackers, or crudit\u00e9s through flavorful swirls of butter. Offer both sweet options like honey, fresh berries, dried fruits, or jams, as well as savory choices like fresh herbs, chili crisp, chimichurri, crumbled bacon, roasted garlic, or nuts.\n\n2. **Tinned Fish**: Consider offering trendy tinned fish options such as octopus, squid, and mussels inspired by traditional Spanish conservas. This can provide a unique and gourmet seafood option for your customers.\n\nThese trendy and creative food options can help differentiate your cafe and attract customers looking for exciting and unique culinary experiences."
+    }
+]
