@@ -45,9 +45,6 @@ def reset_chat_history(filename = 'chat_history.json'):
 # Temporary list to store chat history
 chat_history = load_chat_history()
 
-# Function to extract keywords from prompt
-def extract_key
-
 # Function to get output from model
 def get_chat_response(role, info, files, history):
     client = OpenAI()
