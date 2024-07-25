@@ -111,10 +111,11 @@ def ddg_search(search_string):
     while True:
         try:
             proxy = FreeProxy(google=True).get()
-            print(f"Using proxy: {proxy}")
+            # print(f"Not using proxy: {proxy}")
             print(f"Search string: {search_string}")
             time.sleep(5)
             results = DDGS().text(search_string, max_results = 5)
+            print(results)
             time.sleep(5)
             break
         except Exception as e:
