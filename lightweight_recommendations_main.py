@@ -4,6 +4,7 @@ from openai import OpenAI
 from lw_func import search_engine
 from lw_func import news_api
 from lw_func import lt_keyword_ext
+from lw_func import autocomplete
 import json
 
 st.title('Lightweight Recommendations App')
@@ -97,3 +98,9 @@ if st.button('Test News API', key = 'button3'):
 if st.button('Test Keyword Extractor', key = 'button4'):
     
     print(lt_keyword_ext.main(list_of_info, st_others, st_file))
+
+if st.button('Test Auto Complete', key = 'button5'):
+    
+    results = autocomplete.main(list_of_info, st_others, st_file)
+    # print(results,'\n')
+    st.write(results)

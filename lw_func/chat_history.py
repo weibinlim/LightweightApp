@@ -1,5 +1,4 @@
 import json
-from pathlib import Path
 
 # Function to add to chat history
 def add_to_history(id, message, chat_history_list):
